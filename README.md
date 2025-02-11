@@ -1,42 +1,39 @@
-🔥 SecuScan – Linux Security & Malware Detection Tool
+# 🛡️ NetDefender – Linux Security & Threat Detection Tool
 
-SecuScan is a powerful Linux security tool designed for port scanning, malware image detection, and malware Docker image analysis. It helps security researchers and system administrators detect potential threats and vulnerabilities in their environments.
-🚀 Features
+**NetDefender** is a comprehensive Linux security tool for **port scanning, malware image detection, and malware Docker image analysis**. It helps cybersecurity professionals detect threats and secure their systems.
 
-✅ Port Scanning – Identify open ports and potential vulnerabilities.
-✅ Malware Image Detection – Scan image files for embedded malware threats.
-✅ Malware Docker Image Analysis – Detect malicious code in Docker images.
-✅ Lightweight & Fast – Optimized for performance on Linux systems.
-✅ Easy to Use – Command-line interface for quick security checks.
-🔧 Installation
+## 🚀 Features  
+✅ **Port Scanning** – Identify open ports and potential vulnerabilities.  
+✅ **Malware Image Detection** – Scan image files for embedded threats.  
+✅ **Malware Docker Image Analysis** – Detect malicious code in Docker images.  
+✅ **Fast & Lightweight** – Optimized for Linux environments.  
+✅ **User-Friendly CLI** – Simple command-line interface for quick security checks.  
 
-Clone the repository and follow the setup instructions:
-
+## 🔧 Installation  
+Clone the repository and follow the setup instructions:  
+```bash
 git clone https://github.com/nipunsw1999/NetDefender.git
-
-cd SecuScan
-
+cd NetDefender
 chmod +x install.sh
-
 ./install.sh
+```
 
-📜 Usage
+## 📜 Usage  
+Scan ports:  
+```bash
+./netdefender --scan-ports
+```
+Check an image for malware:  
+```bash
+./netdefender --scan-image suspicious.png
+```
+Analyze a Docker image:  
+```bash
+./netdefender --scan-docker malware_image
+```
 
-Run a port scan:
+## 👨‍💻 Contributing  
+We welcome contributions! Feel free to submit issues and pull requests.  
 
-./secuscan --scan-ports
-
-Scan an image for malware:
-
-./secuscan --scan-image suspicious.png
-
-Analyze a Docker image:
-
-./secuscan --scan-docker malware_image
-
-👨‍💻 Contributing
-
-Contributions are welcome! Feel free to submit issues and pull requests.
-📜 License
-
-This project is licensed under the MIT License
+## 📜 License  
+This project is licensed under the MIT License.
