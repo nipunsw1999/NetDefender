@@ -4,6 +4,7 @@
     sudo apt update -y > /dev/null 2>&1
     sudo apt install -y figlet > /dev/null 2>&1
     sudo apt install -y lolcat > /dev/null 2>&1
+    sudo apt install -y nmap > /dev/null 2>&1
 } &
 
 echo -ne 'Installing... ['
