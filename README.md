@@ -13,8 +13,11 @@ SecuScan is a powerful Linux security tool designed for port scanning, malware i
 Clone the repository and follow the setup instructions:
 
 git clone https://github.com/nipunsw1999/NetDefender.git
+
 cd SecuScan
+
 chmod +x install.sh
+
 ./install.sh
 
 📜 Usage
