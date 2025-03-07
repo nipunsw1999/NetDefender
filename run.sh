@@ -17,7 +17,14 @@ spinner() {
 
 #Nmap scan
 echo "Starting Nmap scan..."
-timeout 30s nmap -p0- -v -A -T4 scanme.nmap.org > output.txt 2>&1 &
+# timeout 30s nmap -p0- -v -A -T4 scanme.nmap.org > output.txt 2>&1 &
+#timeout 30s nmap -v -p 0-65535 -A 192.168.43.153 -oA > output.txt 2>&1 &
+timeout 30s nmap -p0- -v -A -T4 csc.jfn.ac.lk > output.txt 2>&1 &
+# timeout 30s nmap -v -p 0-65535 -A csc.jfn.ac.lk > output.txt 2>&1 &
+# timeout 30s nmap -v -p 0-65535 -A 192.168.137.103 > output.txt 2>&1 &
+# timeout 30s nmap -p0- -v -A -T4 192.168.137.* > output.txt 2>&1 &
+
+
 nmap_pid=$!
 
 #Show spinner
@@ -33,3 +40,6 @@ if [ $? -eq 0 ]; then
 else
     echo -e "\nNmap scan was interrupted or timed out."
 fi
+
+source venv/bin/activate
+python welcome.py
