@@ -255,8 +255,6 @@ async def serve(q: Q):
         del q.page['contentOS']
         del q.page['content1']
         del q.page['content1_1']
-        del q.page['content']
-        del q.page['content1']
         q.page['content'] = ui.markdown_card(
             box='1 2 5 -1',
             title='Automated Malware Scanning using YARA',

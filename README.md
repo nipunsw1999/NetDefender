@@ -4,11 +4,11 @@
 
 ## 🚀 Features
 
-✅ **Port Scanning** – Identify open ports and potential vulnerabilities.  
+✅ **Port Scanning** – Identify open ports and potential vulnerabilities.
+✅ **DOS Detection** – Identify DOS attackes for deployed server in linux.  
 ✅ **Malware Image Detection** – Scan image files for embedded threats.  
 ✅ **Malware Docker Image Analysis** – Detect malicious code in Docker images.  
-✅ **Fast & Lightweight** – Optimized for Linux environments.  
-✅ **User-Friendly CLI** – Simple command-line interface for quick security checks.
+✅ **Fast & Lightweight** – Optimized for Linux environments.
 
 ## 🔧 Installation
 
