@@ -1,1 +1,0 @@
-[{"ip": "192.248.56.21", "port": 21, "port type": "tcp"}, {"ip": "192.248.56.21", "port": 1723, "port type": "tcp"}, {"ip": "192.248.56.21", "port": 554, "port type": "tcp"}, {"ip": "192.248.56.21", "port": 443, "port type": "tcp"}, {"ip": "192.248.56.21", "port": 80, "port type": "tcp"}]
